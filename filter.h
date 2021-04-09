@@ -5,7 +5,7 @@
 class filter {
 public:
 	filter(double* coeff, int size, double* input, int i_size);
-	double output(); //outputs a vector of based on the filter coefficients and input data
+	double output(); //outputs a double of based on the filter coefficients and input data
 private:
 	double* Coeff;
     double* Input;

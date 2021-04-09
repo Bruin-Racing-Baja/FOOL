@@ -16,3 +16,12 @@ double filter::output() { //i'm not sure what's supposed to happen with an input
     }
     return result;
 }
+
+int main() {
+    double coeff[4] = {1,2.51,3,4}; //some tests
+    double input[4] = {1.2,2,3.6,4};
+    filter tommy(coeff, 4, input, 4);
+    filter tommy1(coeff, 4, input, 3);
+    std::cout << tommy.output() << std::endl;
+    std::cout << tommy1.output() << std::endl;
+}
