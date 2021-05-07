@@ -1,3 +1,4 @@
-filter.exe
+*.exe
 .vscode/
 .vscode/settings.json
+*.bin
